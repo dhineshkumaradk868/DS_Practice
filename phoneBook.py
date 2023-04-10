@@ -20,7 +20,7 @@ def display_options():
 #function to get option from user
 def get_option():
     option = int(input("Enter an option: "))
-    print("You have selected, ", options[option])
+    print("You have selected, ", options.get(option))
     return option
 
 #validation for the input values
